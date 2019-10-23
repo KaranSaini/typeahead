@@ -1,5 +1,8 @@
 <div id = "window" class="container-fluid">
+  <h1 id = "title">Typeahead with RXJS</h1>
   <div id = "typeaheadContainer" class="container">
-    
+    <h5>Search for a State: </h5>
+    <input type="text" class = "form-control" placeholder="Start Typing..." (keyup) = onKey($event)>
+    <div [innerHTML] = "typeaheadCont" id="result"></div>
   </div>
 </div>
