@@ -1,6 +1,6 @@
 # Typeahead
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
+To run just clone and `npm install`
 
 ## Development server
 
